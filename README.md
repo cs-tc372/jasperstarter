@@ -1,3 +1,23 @@
+Changes from original project
+-----------------------------
+We don't want to expose the password in clear fashion in the command line. This is an extremly bad practice.
+So, I adapted the original code in order to use a YAML file that will hold all related database properties.
+The YAML file can contains environment variable like ${MY_SECRET}
+
+New parameter:
+```bash
+--db-properties <yaml file>
+```
+
+Example of YAML file:
+```yaml
+dbHost: 123.123.123.123
+dbPort: 1521
+dbSid: RDFC
+dbUser: sa
+dbPasswd: sa
+```
+
 
 JasperStarter - Running JasperReports from command line
 --------------------------------------------------------
