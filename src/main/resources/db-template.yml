@@ -1,0 +1,32 @@
+##### Parameters:
+#dbDriver
+#dbUrl
+#dbHost
+#dbPort
+#dbName
+#dbSid
+#dbUser
+#dbPasswd
+
+##### Mandatory for Oracle
+#dbHost: 123.123.123.123
+#dbPort: 1521
+#dbSid: RDFC
+#dbUser: sa
+#dbPasswd: sa
+
+##### Mandatory for MySql
+#dbHost: 123.123.123.123
+#dbPort: 1521
+#dbName: DB_ID
+#dbUser: sa
+
+##### Mandatory for PostgreSql
+#dbHost: 123.123.123.123
+#dbPort: 1521
+#dbName: DB_ID
+#dbUser: sa
+
+##### Mandatory for any other databases:
+#dbDriver
+#dbUrl

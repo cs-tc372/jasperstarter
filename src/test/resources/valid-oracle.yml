@@ -1,0 +1,5 @@
+dbHost: 123.123.123.123
+dbPort: 1521
+dbSid: RDFC
+dbUser: ${USER}
+dbPasswd: sa

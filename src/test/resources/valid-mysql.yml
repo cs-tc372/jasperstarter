@@ -1,0 +1,4 @@
+dbHost: 1.1.1.1
+dbPort: 3306
+dbName: DB_ID
+dbUser: sa
